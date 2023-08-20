@@ -1,0 +1,104 @@
+package dev.dallyh.lemmyktclient.api.v3.community.json
+
+internal const val LIST_COMMUNITIES_RESPONSE = """
+{
+	"communities": [
+		{
+			"community": {
+				"id": 2,
+				"name": "testcommunity",
+				"title": "Test Community",
+				"description": "This description was edited.",
+				"removed": false,
+				"published": "2023-08-02T17:57:55.788785",
+				"updated": "2023-08-06T15:43:53.215048",
+				"deleted": false,
+				"nsfw": false,
+				"actor_id": "https://localhost/c/testcommunity",
+				"local": true,
+				"hidden": false,
+				"posting_restricted_to_mods": false,
+				"instance_id": 1
+			},
+			"subscribed": "Pending",
+			"blocked": false,
+			"counts": {
+				"id": 1,
+				"community_id": 2,
+				"subscribers": 1,
+				"posts": 1,
+				"comments": 6,
+				"published": "2023-08-02T17:57:55.788785",
+				"users_active_day": 2,
+				"users_active_week": 2,
+				"users_active_month": 2,
+				"users_active_half_year": 2,
+				"hot_rank": 1
+			}
+		},
+		{
+			"community": {
+				"id": 3,
+				"name": "greatcommunity",
+				"title": "This community is great",
+				"removed": false,
+				"published": "2023-08-06T15:26:46.733295",
+				"deleted": false,
+				"nsfw": false,
+				"actor_id": "https://localhost/c/greatcommunity",
+				"local": true,
+				"hidden": false,
+				"posting_restricted_to_mods": false,
+				"instance_id": 1
+			},
+			"subscribed": "NotSubscribed",
+			"blocked": false,
+			"counts": {
+				"id": 2,
+				"community_id": 3,
+				"subscribers": 0,
+				"posts": 0,
+				"comments": 0,
+				"published": "2023-08-06T15:26:46.733295",
+				"users_active_day": 0,
+				"users_active_week": 0,
+				"users_active_month": 0,
+				"users_active_half_year": 0,
+				"hot_rank": 1062
+			}
+		},
+		{
+			"community": {
+				"id": 4,
+				"name": "story",
+				"title": "Listen up here is a story",
+				"removed": false,
+				"published": "2023-08-06T15:32:15.215187",
+				"updated": "2023-08-06T15:40:52.143623",
+				"deleted": false,
+				"nsfw": false,
+				"actor_id": "https://localhost/c/story",
+				"local": true,
+				"hidden": false,
+				"posting_restricted_to_mods": false,
+				"instance_id": 1
+			},
+			"subscribed": "Subscribed",
+			"blocked": false,
+			"counts": {
+				"id": 3,
+				"community_id": 4,
+				"subscribers": 1,
+				"posts": 0,
+				"comments": 0,
+				"published": "2023-08-06T15:32:15.215187",
+				"users_active_day": 0,
+				"users_active_week": 0,
+				"users_active_month": 0,
+				"users_active_half_year": 0,
+				"hot_rank": 1441
+			}
+		}
+	]
+}
+"""
