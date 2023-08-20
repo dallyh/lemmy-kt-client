@@ -18,15 +18,15 @@ instance in Docker to check for changes between builds.
 
 Project is currently not on Maven, so if you want to use it, you'll have to build it for now.
 
-### Supported platforms
+## Supported platforms
 - JVM
 - LinuxX64
 - MingwX64
 
-### Compatibility
+## Compatibility
 The client should be inline with version v0.18.3 of [lemmy-js-client](https://github.com/LemmyNet/lemmy-js-client)
 
-### How to use the client
+## How to use the client
 To use the client, just initialize the Lemmy Client with a host (import it from the version you want to use, currently only v3):
 
 The client should then use the relevant HTTP implementation for the platform:
@@ -76,7 +76,7 @@ runBlocking {
 In the folder [Insomnia](/insomnia) there is an Insomnia project which can be useful to test the APIs. 
 Please take a look at it's dedicated [README](/insomnia/README.md).
 
-### Credits
+## Credits
 Original project can be found here: https://github.com/eiknat/lemmy-client. The project was abandoned long time ago (when version of Lemmy API was v1), 
 so I decided to create a new repository which aims to bring the new changes into this client with some improvements.
 
